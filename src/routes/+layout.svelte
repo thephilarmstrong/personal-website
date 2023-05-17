@@ -17,8 +17,8 @@
 			</svelte:fragment>
 			<h2 class="h2" data-toc-ignore>Phil Armstrong</h2>
 			<svelte:fragment slot="trail">
-				<a class="btn-icon variant-filled-secondary" target="_blank" href="https://twitter.com/boombastech">Tw</a>
-				<a class="btn-icon variant-filled-tertiary" target="_blank" href="https://github.com/thephilarmstrong">GH</a>
+				<a class="btn-icon variant-filled-secondary" target="_blank" href="https://twitter.com/boombastech"><i class="fa-brands fa-twitter"></i></a>
+				<a class="btn-icon variant-filled-tertiary" target="_blank" href="https://github.com/thephilarmstrong"><i class="fa-brands fa-github"></i></a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
