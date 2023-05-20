@@ -1,10 +1,3 @@
-<script lang="ts">
-	import { Avatar } from '@skeletonlabs/skeleton';
-</script>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-<section>
-	<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
-	<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
-	<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-</section>
+<h1>Homepage</h1>
+<hr />
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nostrum, vero explicabo sunt ipsum asperiores. Molestias nostrum mollitia cumque veniam eum error atque, dolores nesciunt voluptas ea consectetur sed delectus.</p>
