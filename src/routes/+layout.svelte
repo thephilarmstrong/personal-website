@@ -9,6 +9,7 @@
 	import { AppShell, AppBar, Avatar } from '@skeletonlabs/skeleton';
 	import Sidebar from '$lib/Sidebar.svelte';
 </script>
+
 <AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4">
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end" class="w-full">
