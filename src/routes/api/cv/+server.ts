@@ -1,17 +1,11 @@
 import { error } from '@sveltejs/kit';
+import type { RequestEvent, RequestHandler } from '../$types';
+import { json } from '@sveltejs/kit';
 
-/** @type {import('./$types').RequestHandler} */
-export function GET({ url }) {
-    const min = Number(url.searchParams.get('min') ?? '0');
-    const max = Number(url.searchParams.get('max') ?? '1');
+export function GET(asdf: RequestEvent): Response {
+    return json(asdf.url.searchParams.getAll('asdf'));
+}
 
-    const d = max - min;
-
-    if (isNaN(d) || d < 0) {
-        throw error(400, 'min and max must be numbers, and min must be less than max');
-    }
-
-    const random = min + Math.random() * d;
-
-    return new Response(String(random));
+export const POST: RequestHandler = (asf: RequestEvent) => {
+    return new Response(String(json(asf.params)));
 }
