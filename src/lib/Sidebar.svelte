@@ -11,5 +11,6 @@ function drawerClose(): void {
         <li><a on:click={drawerClose} href="/">Home</a></li>
         <li><a on:click={drawerClose} href="/about">About</a></li>
         <li><a on:click={drawerClose} href="/cv">CV</a></li>
+        <li><a on:click={drawerClose} href="/auth/login">Login</a></li>
     </ul>
 </nav>
